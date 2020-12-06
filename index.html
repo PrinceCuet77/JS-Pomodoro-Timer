@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title> Pomodoro Timer </title>
+    <link rel="shortcut icon" type="image/png"
+        href="https://cdn0.iconfinder.com/data/icons/basic-uses-symbol-vol-3/100/True_Yes_Right_Tick-512.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-title">
+            <h1>Pomodoro Timer</h1>
+        </div>
+        <div class="content">
+            <!-- option -->
+            <div class="content-header-btn">
+                <span class="pomodoro">Pomodoro</span>
+                <span class="short-break">Short Break</span>
+                <span class="long-break">Long Break</span>
+            </div>
+            <!-- demo clock -->
+            <div class="content-clock">
+                <div class="minute">25</div>
+                <div>:</div>
+                <div class="second">0</div>
+            </div>
+            <!-- button -->
+            <div class="content-bottom-btn">
+                <button class="start"><i class="fas fa-play-circle"></i> Start</button>
+                <button class="pause"><i class="far fa-pause-circle"></i> Pause</button>
+                <button class="reset"><i class="fas fa-sync-alt"></i> Reset</button>
+            </div>
+            <!-- cycle counter -->
+            <div class="counter">
+                <div class="counter-title">
+                    <p>Cycle:</p>
+                </div>
+                <div class="counter-cycle">
+                    <div class="clock-one"><i class="far fa-clock"></i></div>
+                    <div class="clock-two"><i class="far fa-clock"></i></div>
+                    <div class="clock-three"><i class="far fa-clock"></i></div>
+                    <div class="clock-four"><i class="far fa-clock"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript file -->
+    <script src="app.js"></script>
+</body>
+
+</html>
